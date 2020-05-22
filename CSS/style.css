@@ -70,11 +70,13 @@ header {
 }
 #nav-bar ul li {
     margin-right: 20px;
-}
+  }
 #nav-bar ul li:last-child {
     margin-right: 0px;
 }
-
+#nav-bar ul li:hover {
+    border-bottom: 1px solid #707478;
+}
 #footer {
     position: fixed;
     bottom: 0;
