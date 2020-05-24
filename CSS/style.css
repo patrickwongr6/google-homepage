@@ -70,11 +70,16 @@ header {
 }
 #nav-bar ul li {
     margin-right: 20px;
+    text-decoration: none;
   }
 #nav-bar ul li:last-child {
     margin-right: 0px;
 }
-#nav-bar ul li:hover {
+#nav-bar ul li a{
+    text-decoration: none;
+    color: rgb(56,54,54);
+    }
+#nav-bar ul li a:hover {
     border-bottom: 1px solid #707478;
 }
 #footer {
